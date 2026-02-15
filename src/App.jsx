@@ -2,7 +2,8 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import {HELLO} from './components/component1'
+import HELLO from './components/component1.jsx'
+import EFFECT from './components/Effect.jsx'
  
 
 function App() {
@@ -12,7 +13,8 @@ function App() {
     <>
    
       <div>
-      <HELLO />
+      {/* <HELLO /> */}
+      <EFFECT />
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
